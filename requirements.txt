@@ -1,0 +1,9 @@
+# 依赖（2026-11-21，Python 3.12 上验证过）
+#
+# 自己的 agent 代码（models / tools / agents / executor / research /
+# mcp_client / cli）只用标准库，零第三方依赖。
+# 下面两个包只供“原版对照”用：
+#   - smolagents：eval.py 的 upstream 系统（原版 CodeAgent）和 Phase 0
+#   - ddgs：原版 DuckDuckGoSearchTool 需要它才能实例化
+smolagents[openai]==1.26.0
+ddgs==9.16.1

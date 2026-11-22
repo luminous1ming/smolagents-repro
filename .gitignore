@@ -1,0 +1,10 @@
+# Publish set = the fresh-checkout set verified in Phase 8
+# (notes/phase8-portfolio.md): code + notes + README + data, no venv,
+# no run logs, no trajectories, no live-check records.
+.venv/
+__pycache__/
+*.pyc
+runs/
+eval_runs/
+trajectories/
+live_checks/
